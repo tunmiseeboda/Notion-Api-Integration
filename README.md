@@ -10,10 +10,10 @@ This program reads data from a CSV file (ratings.csv) containing the book name, 
 
 ## Sources
 Here are the primary sources and references I used during the development of this project:
-Notion API Documentation: Notion API Docs
-learning notion API with Python: https://www.python-engineer.com/posts/notion-api-python/
-creating a notion page with Python: https://medium.com/@plasmak_/how-to-create-a-notion-page-using-python-9994bf01299
-notion-sdk-py: https://github.com/ramnes/notion-sdk-py
+- Notion API Documentation: Notion API Docs
+- learning notion API with Python: https://www.python-engineer.com/posts/notion-api-python/
+- creating a notion page with Python: https://medium.com/@plasmak_/how-to-create-a-notion-page-using-python-9994bf01299
+- notion-sdk-py: https://github.com/ramnes/notion-sdk-py
 
 ## Dependencies
 os: used to work with the operating system.
@@ -23,11 +23,11 @@ csv: A module for reading and writing CSV files.
 collections: used to work with data structures like defaultdict
 
 ## Edge Cases
-Edge case(Handled): Empty CSV file 
-Edge case(Handled): Missing Field Names
-Edge case(Handled): Missing Values in CSV Rows
-Edge case(Handled): Case Insensitivity
-Edge case(Not Handled): Where code runs more than once and certain rows are removed from the csv file
-Edge Case(not handled): Handling cases for csv files with headers.
+- Edge case(Handled): Empty CSV file 
+- Edge case(Handled): Missing Field Names
+- Edge case(Handled): Missing Values in CSV Rows
+- Edge case(Handled): Case Insensitivity
+- Edge case(Not Handled): Where code runs more than once and certain rows are removed from the csv file
+- Edge Case(not handled): Handling cases for csv files with headers.
 
 
