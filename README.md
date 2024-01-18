@@ -16,11 +16,11 @@ Here are the primary sources and references I used during the development of thi
 - notion-sdk-py: https://github.com/ramnes/notion-sdk-py
 
 ## Dependencies
-os: used to work with the operating system.
-dotenv: reading key-value pairs from a .env file
-notion and notion_client: used for working with the notion API
-csv: A module for reading and writing CSV files.
-collections: used to work with data structures like defaultdict
+- os: used to work with the operating system.
+- dotenv: reading key-value pairs from a .env file
+- notion and notion_client: used for working with the notion API
+- csv: A module for reading and writing CSV files.
+- collections: used to work with data structures like defaultdict
 
 ## Edge Cases
 - Edge case(Handled): Empty CSV file 
